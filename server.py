@@ -360,7 +360,7 @@ if __name__ == "__main__":
     from starlette.requests import Request
     from starlette.routing import Mount, Route
 
-    transport = ")
+    transport = "sse"
     port = int(os.environ.get("PORT", 8000))
 
     if transport == "sse":
